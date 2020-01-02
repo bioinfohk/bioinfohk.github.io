@@ -29,12 +29,15 @@ url: "https://bioinfohk.github.io" # the base hostname & protocol for your site,
 twitter_username:
 github_username:  bioinfohk
 
-google-analytics: G-SX2FVJFFJ2
-
+jekyll_analytics:
+  GoogleAnalytics:          # Add, if you want to track with Google Analytics
+    id: G-SX2FVJFFJ2          # Required - replace with your tracking id
+    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-analytics
 
 # Exclude from processing.
 # The following items will not be processed, by default.
