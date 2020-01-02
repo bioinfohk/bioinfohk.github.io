@@ -29,7 +29,7 @@ url: "https://bioinfohk.github.io" # the base hostname & protocol for your site,
 twitter_username:
 github_username:  bioinfohk
 
-google-analytics: 'G-SX2FVJFFJ2'
+google-analytics: G-SX2FVJFFJ2
 
 # Build settings
 theme: minima
